@@ -37,7 +37,7 @@ const App = () => {
     );
 
   return (
-    <div data-theme={theme}>
+    <div data-theme={theme} className="flex flex-col min-h-screen">
       <Navbar />
 
       <Routes>

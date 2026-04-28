@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="fixed bottom-0 w-full bg-base-100 border-t border-base-300">
+    <footer className="w-full bg-base-100 border-t border-base-300 mt-auto">
       <div className="container mx-auto px-4 py-2 flex flex-col items-center justify-center text-center">
         <p className="text-sm text-base-content/70">
           Hello, my name is <span className="font-medium">Indrajit Bhowmick</span>, from ECE 8th Sem
