@@ -1,14 +1,6 @@
 import { useLocation } from "react-router-dom";
 
 const Footer = () => {
-  const location = useLocation();
-  
-  // Don't show the footer on the home page (chat) or settings page
-  // as they have their own full-screen layouts.
-  if (location.pathname === "/" || location.pathname === "/settings") {
-    return null;
-  }
-
   return (
     <footer className="w-full bg-base-100 border-t border-base-300 mt-auto">
       <div className="container mx-auto px-4 py-3 flex flex-col items-center justify-center text-center">
